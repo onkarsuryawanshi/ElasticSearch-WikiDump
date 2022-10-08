@@ -1,0 +1,169 @@
+569:1269:Main:Page
+569:1270:Wikipedia:Community Portal
+569:1293:Wikipedia:Administrators
+569:1426:Main:page
+569:1505:Template:Delete
+569:1506:Category:Candidates for speedy deletion
+569:1507:Category:Wikipedia
+569:1779:Template:User aa-0
+569:1792:Wikipedia:Sandbox
+569:1835:Category:User aa
+569:1942:Wikipedia:Protected pages
+569:1958:Template:Babel
+569:1959:Template:User nl
+569:1960:Template:User en-3
+569:1961:Template:User de-1
+569:1962:Template:User fr-1
+569:1965:Wikipedia:Nospam
+569:1980:Template:User sk
+569:1981:Category:User sk-N
+569:1982:Category:User sk
+569:1992:Template:User:P/Disc frame
+569:2001:Template:Style/IPA
+569:2002:Template:Style/yid
+569:2016:MediaWiki:Titleblacklist
+569:2061:Template:Cc-by-sa-2.0
+569:2073:Wikipedia:Statistics
+569:2085:Category:User fr
+569:2087:Template:User fr
+569:2088:Template:User es-2
+569:2090:Category:User en
+569:2091:Category:User aa-0
+569:2092:Category:User fr-N
+569:2093:Category:User en-3
+569:2094:Wikipedia:Babel
+569:2144:Template:User he
+569:2145:Category:Wikipedians by language
+569:2148:Category:User de
+569:2149:Category:User de-1
+569:2150:Category:User es
+569:2151:Category:User es-2
+569:2152:Category:User fr-1
+569:2153:Category:User nl
+569:2154:Category:User nl-N
+569:2155:Category:User templates de
+569:2156:Category:Language user templates
+569:2157:Category:Userboxes
+569:2158:Category:User templates fr
+569:2159:Category:User templates nl
+569:2160:Category:Top Level
+569:2161:Category:Articles
+569:2162:Category:User he
+569:2163:Category:User he-N
+569:2164:Template:User en-2
+569:2165:Category:User templates en
+569:2166:Category:User en-2
+569:2167:MediaWiki:Sitenotice
+569:2170:MediaWiki:Configuredpages-def-stable
+569:2171:MediaWiki:Flaggedrevs
+569:2172:MediaWiki:Flaggedrevs-backlog
+569:2173:MediaWiki:Flaggedrevs-desc
+569:2174:MediaWiki:Flaggedrevs-prefs-editdiffs
+569:2175:MediaWiki:Flaggedrevs-prefs-stable
+569:2176:MediaWiki:Flaggedrevs-prefs-viewdiffs
+569:2177:MediaWiki:Flaggedrevs-protect-autoconfirmed
+569:2178:MediaWiki:Flaggedrevs-protect-legend
+569:2179:MediaWiki:Flaggedrevs-protect-none
+569:2180:MediaWiki:Flaggedrevs-protect-review
+569:2181:MediaWiki:Flaggedrevs-watched-pending
+569:2182:MediaWiki:Oldreviewed-stable
+569:2183:MediaWiki:Prefs-flaggedrevs
+569:2184:MediaWiki:Prefs-flaggedrevs-ui
+569:2185:MediaWiki:Review-diff2stable
+569:2186:MediaWiki:Review-edit-diff
+569:2187:MediaWiki:Review-logentry-app
+569:2188:MediaWiki:Review-logentry-dis
+569:2189:MediaWiki:Review-logpagetext
+569:2190:MediaWiki:Revreview-accuracy-0
+569:2191:MediaWiki:Revreview-basic
+569:2192:MediaWiki:Revreview-basic-i
+569:2193:MediaWiki:Revreview-basic-old
+569:2194:MediaWiki:Revreview-basic-same
+569:2195:MediaWiki:Revreview-basic-source
+569:2196:MediaWiki:Revreview-basic-title
+569:2197:MediaWiki:Revreview-check-flag
+569:2199:MediaWiki:Revreview-def-stable
+569:2200:MediaWiki:Revreview-depth-0
+569:2201:MediaWiki:Revreview-diff-toggle-title
+569:2202:MediaWiki:Revreview-draft-title
+569:2203:MediaWiki:Revreview-edited
+569:2204:MediaWiki:Revreview-editnotice
+569:2205:MediaWiki:Revreview-filter-approved
+569:2206:MediaWiki:Revreview-filter-reapproved
+569:2207:MediaWiki:Revreview-filter-stable
+569:2208:MediaWiki:Revreview-filter-unapproved
+569:2209:MediaWiki:Revreview-hist-basic
+569:2210:MediaWiki:Revreview-hist-basic-auto
+569:2211:MediaWiki:Revreview-hist-basic-user
+569:2212:MediaWiki:Revreview-hist-draft
+569:2213:MediaWiki:Revreview-lev-basic
+569:2214:MediaWiki:Revreview-locked
+27989:2215:MediaWiki:Revreview-locked-title
+27989:2216:MediaWiki:Revreview-log-details-title
+27989:2217:MediaWiki:Revreview-log-toggle-hide
+27989:2218:MediaWiki:Revreview-log-toggle-show
+27989:2219:MediaWiki:Revreview-newest-basic
+27989:2220:MediaWiki:Revreview-newest-basic-i
+27989:2221:MediaWiki:Revreview-newest-quality
+27989:2222:MediaWiki:Revreview-newest-quality-i
+27989:2223:MediaWiki:Revreview-noflagged
+27989:2224:MediaWiki:Revreview-pending-basic
+27989:2225:MediaWiki:Revreview-pending-quality
+27989:2226:MediaWiki:Revreview-quality
+27989:2227:MediaWiki:Revreview-quality-i
+27989:2228:MediaWiki:Revreview-quality-same
+27989:2229:MediaWiki:Revreview-quick-basic
+27989:2230:MediaWiki:Revreview-quick-basic-old
+27989:2231:MediaWiki:Revreview-quick-basic-same
+27989:2232:MediaWiki:Revreview-quick-none
+27989:2233:MediaWiki:Revreview-quick-see-basic
+27989:2234:MediaWiki:Revreview-reviewlink
+27989:2235:MediaWiki:Revreview-reviewlink-title
+27989:2236:MediaWiki:Revreview-stable
+27989:2237:MediaWiki:Revreview-stable1
+27989:2238:MediaWiki:Revreview-stable2
+27989:2240:MediaWiki:Revreview-text
+27989:2241:MediaWiki:Revreview-tt-flag
+27989:2242:MediaWiki:Revreview-tt-unflag
+27989:2243:MediaWiki:Revreview-unlocked
+27989:2244:MediaWiki:Revreview-unlocked-title
+27989:2245:MediaWiki:Revreview-unreviewedpage
+27989:2246:MediaWiki:Revreview-update
+27989:2247:MediaWiki:Revreview-update-edited
+27989:2248:MediaWiki:Revreview-update-edited-prev
+27989:2249:MediaWiki:Revreview-update-use
+27989:2250:MediaWiki:Revreview-visibility
+27989:2251:MediaWiki:Revreview-visibility2
+27989:2252:MediaWiki:Revreview-visibility3
+27989:2253:MediaWiki:Right-autoreview
+27989:2254:MediaWiki:Right-movestable
+27989:2255:MediaWiki:Right-review
+27989:2256:MediaWiki:Right-stablesettings
+27989:2257:MediaWiki:Specialpages-group-quality
+27989:2258:MediaWiki:Stabilization-def1
+27989:2259:MediaWiki:Stabilization-def-short-1
+27989:2260:MediaWiki:Stabilization-leg
+27989:2261:MediaWiki:Stabilization-perm
+27989:2262:MediaWiki:Stabilize protect quota
+27989:2263:MediaWiki:Stable-logentry-config
+27989:2264:MediaWiki:Stable-logentry-modify
+27989:2265:MediaWiki:Stable-logentry-reset
+27989:2266:MediaWiki:Stable-logpage
+27989:2267:MediaWiki:Stable-logpagetext
+27989:2268:MediaWiki:Stable-log-restriction
+27989:2269:MediaWiki:Stablepages
+27989:2270:MediaWiki:Stablepages-text
+27989:2271:MediaWiki:Tooltip-ca-stable
+27989:2272:MediaWiki:Validationpage
+27989:2273:MediaWiki:Validationstatistics-latest
+27989:2274:MediaWiki:Validationstatistics-stable
+27989:2275:MediaWiki:Validationstatistics-synced
+27989:2388:Template:FlowMention
+27989:2389:Template:LQT Moved thread stub converted to Flow
+27989:2390:Template:LQT page converted to Flow
+27989:2391:Template:Archive for converted LQT page
+27989:2392:Template:LQT post imported with supressed user
+27989:2393:Template:LQT post imported with different signature user
+27989:2394:Template:Wikitext talk page converted to Flow
+27989:2395:Template:Archive for converted wikitext talk page
+27989:2396:MediaWiki:Sitesupport-url
