@@ -46,4 +46,10 @@ public class ElasticSearchController {
         String response = elasticSearchQuery.deleteDocumentById(documentId);
         return new ResponseEntity<>(response, HttpStatus.OK);
     }
+
+    //searching in field2 -- keyword field
+    @GetMapping("/searchQueryKeyword")
+    public void searchQueryKeyword() throws IOException {
+        elasticSearchQuery.searchByKeywordTitle();
+    }
 }

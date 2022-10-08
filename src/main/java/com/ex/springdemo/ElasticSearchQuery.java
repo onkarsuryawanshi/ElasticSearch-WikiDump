@@ -1,13 +1,21 @@
 package com.ex.springdemo;
 
+
 import co.elastic.clients.elasticsearch.ElasticsearchClient;
+import co.elastic.clients.elasticsearch.core.search.TotalHits;
+import co.elastic.clients.elasticsearch.core.search.TotalHitsRelation;
+import org.elasticsearch.action.index.IndexRequest;
 import co.elastic.clients.elasticsearch.core.*;
-import co.elastic.clients.elasticsearch.core.bulk.BulkResponseItem;
 import co.elastic.clients.elasticsearch.core.search.Hit;
-import com.ex.springdemo.wikidump.Dump;
-import com.ex.springdemo.wikidump.Parser;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Repository;
+
+import co.elastic.clients.elasticsearch.core.bulk.BulkResponseItem;
+
+import com.ex.springdemo.wikidump.Dump;
+import com.ex.springdemo.wikidump.Parser;
+
 
 import java.io.IOException;
 import java.util.ArrayList;
@@ -51,7 +59,6 @@ public class ElasticSearchQuery {
                     )
             );
         }
-
         BulkResponse result = null;
         try {
             result = elasticsearchClient.bulk(br.build());
@@ -104,5 +111,37 @@ public class ElasticSearchQuery {
         }
         System.out.println("document not found");
         return new StringBuilder("document with id " + deleteResponse.id() + " does not exist.").toString();
+
+    }
+
+    public void searchByKeywordTitle() {
+        String field = "field2";
+        String textToBeSearched = "1835";
+        IndexRequest indexRequest = new IndexRequest(indexName);
+        indexRequest.id(indexName);
+        SearchRequest request = SearchRequest.of(s -> s.index(indexName).query(q -> q
+                .match(t -> t
+                        .field(field)
+                        .query(textToBeSearched))));
+        SearchResponse response = null;
+        try {
+            response = elasticsearchClient.search(request, Dump.class);
+        } catch (IOException e) {
+            throw new RuntimeException(e);
+        }
+        TotalHits total = response.hits().total();
+        boolean isExactResult = total.relation() == TotalHitsRelation.Eq;
+
+        if (isExactResult) {
+            System.out.println("There are " + total.value() + " results");
+        } else {
+            System.out.println("There are more than " + total.value() + " results");
+        }
+
+        List<Hit<Dump>> hits = response.hits().hits();
+        for (Hit<Dump> hit : hits) {
+            Dump obj = hit.source();
+            System.out.println("Found found  " + obj + ", score " + hit.score());
+        }
     }
 }
